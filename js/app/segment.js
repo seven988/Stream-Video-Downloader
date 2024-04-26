@@ -426,7 +426,7 @@ function convert( rez ) {
 							"-threads", "0",
 							"-preset", "veryfast",
 							"-c", "copy",
-							"/fs/"+file_name ];
+							"/Users/jinweiwei/Downloads/"+file_name ];
 				
 				console.log(arg.join(' '));
 				

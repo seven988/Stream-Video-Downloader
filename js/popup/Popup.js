@@ -58,6 +58,7 @@
 								if( request.subject == "mediaForTabUpdate" )  {
 									fvdDownloader.Utils.getActiveTab( function( tab ){
 													if( tab.id == request.data )   {
+														console.log("onMessage rebuildTreadsList");
 														self.rebuildThreadsList();
 													}
 												});
