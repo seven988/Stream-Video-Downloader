@@ -1,6 +1,6 @@
 var FFMPEG_CONVERT = function(){
 
-	const DEBUG = false;
+	const DEBUG = true;
 	const FFMPEG_TIMEOUT = 600000;	// 10минут
 
 	var output = '';
