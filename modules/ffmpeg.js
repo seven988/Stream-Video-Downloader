@@ -7,7 +7,7 @@ var FFMPEG_CONVERT = function(){
 	
 	// -----------------------------------------------------------
 	function run_ffmpeg(params, options, finish, message) {
-		
+		debugger;
 		if (DEBUG) console.log('--video_ffmpeg.run--', options, '\n', params.join(' '));
 		
 		var l = params.type || "nacl";

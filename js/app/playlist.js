@@ -415,7 +415,7 @@ function build_playlist( params, callback ) {
 		arg.push("aac_adtstoasc");
 	}	
 			
-	arg.push("/fs/"+params.output);
+	arg.push("//Users/jinweiwei/Downloads/"+params.output);
 
 	console.log(arg.join(' '));
 
