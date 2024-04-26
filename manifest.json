@@ -43,6 +43,6 @@
 					"management", 
 					"downloads" 	  ],
    "short_name": "Stream Video Downloader",
-   "version": "9.2.10",
+   "version": "9.2.11",
    "web_accessible_resources": [ "*" ]
 }
